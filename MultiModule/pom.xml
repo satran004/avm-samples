@@ -57,7 +57,7 @@
         <!-- Don't change the following dependency. This is required to compile & run test cases. The avm.jar for the project will be
         installed into the local maven repository during mvn initialize phase. -->
         <dependency>
-            <groupId>com.test.AVM221</groupId>
+            <groupId>com.test.MultiModule</groupId>
             <artifactId>avm</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>test</scope>
@@ -121,7 +121,7 @@
                             <goal>install-file</goal>
                         </goals>
                         <configuration>
-                            <groupId>com.test.AVM221</groupId>
+                            <groupId>com.test.MultiModule</groupId>
                             <artifactId>avm</artifactId>
                             <version>1.0-SNAPSHOT</version>
                             <packaging>jar</packaging>
